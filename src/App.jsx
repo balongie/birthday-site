@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [surprise, setSurprise] = useState(false);
-  const base = import.meta.env.BASE_URL;
+  const base = "/birthday-site/";
 
   return (
     <main className="page">
