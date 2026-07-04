@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [surprise, setSurprise] = useState(false);
-  const base = "/birthday-site/";
+  const base = "https://balongie.github.io/birthday-site/";
 
   return (
     <main className="page">
